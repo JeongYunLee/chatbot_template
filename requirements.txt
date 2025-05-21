@@ -1,0 +1,14 @@
+openai==1.58.1
+python-dotenv==1.0.1
+langchain==0.2.8
+langchain-community==0.2.7
+langchain-core==0.2.19
+langchain-openai==0.1.16
+langchain-text-splitters==0.2.2
+tiktoken==0.7.0
+PyMuPDFb==1.24.6
+PyMuPDF==1.24.7
+pdfplumber==0.11.5
+llama-parse==0.5.15
+chromadb==0.5.23
+chainlit==2.5.5
