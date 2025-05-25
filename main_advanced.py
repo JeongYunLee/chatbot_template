@@ -36,19 +36,6 @@ def get_session_history(session_ids):
 
 llm_4o = ChatOpenAI(model="gpt-4o", temperature=0)
 
-# model_prompt = ChatPromptTemplate.from_messages(
-#     [
-#         (
-#             "system",
-#             "You are an expert who answers the query based on the retrieved data."
-#             "Answer in Korean.",
-#         ),
-#         # 대화기록용 key 인 chat_history 는 가급적 변경 없이 사용하세요!
-#         MessagesPlaceholder(variable_name="chat_history"),
-#         ("human", "#Question:\n{question} #Retrieved data: \n{retrieved_data}"), 
-#     ]
-# )
-
 model_prompt = PromptTemplate(
     template="""
         You are an expert who answers the query based on the retrieved data.
