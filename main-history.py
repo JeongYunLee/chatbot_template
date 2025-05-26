@@ -1,3 +1,5 @@
+## multi-turn chatbot (대화기록을 유지하는 챗봇)
+
 import os
 from dotenv import load_dotenv
 import chromadb
