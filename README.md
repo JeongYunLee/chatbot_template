@@ -1,5 +1,5 @@
-# chatbot_template
-Used: LangChain, LangGraph, RAG, Chainlit
+# 🤖 RAG chatbot
+LangChain과 Chainlit을 활용한 RAG기반 챗봇 만들기 실습
 
 ## 0. VScode에서 실습 폴더 열기
 
