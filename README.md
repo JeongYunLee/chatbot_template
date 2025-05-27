@@ -19,8 +19,8 @@ python -m venv env
 
 # 2. activate
 source env/bin/activate  # mac
-env\Scripts\activate.bat  # window
-```
+env\Scripts\activate  # window
+``
 
 ## 3. requirements.txt 설치
 
@@ -33,7 +33,7 @@ env\Scripts\activate.bat  # window
 
 ### backend
 * [<랭체인LangChain 노트> - LangChain 한국어 튜토리얼](https://wikidocs.net/book/14314)
-* [Tavily Search](https://www.tavily.com/): 부분 문료
+* [Tavily Search](https://www.tavily.com/): 부분 무료
 * [Llama Parse](https://www.llamaindex.ai/llamaparse): 부분 무료
 * [Upstage Document Parse](https://www.upstage.ai/products/document-parse): 유료
 
