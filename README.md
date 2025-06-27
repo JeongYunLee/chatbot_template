@@ -1,9 +1,19 @@
 # 🤖 RAG chatbot
 LangChain과 Chainlit을 활용한 RAG기반 챗봇 만들기 실습
 
+> 파일 설명
+> 1. main.py: vanila RAG with Chainlit (single-turn)
+> 2. main-history.py: multi-turn 대화가 가능한 버전. chainlit으로 테스트 가능
+> 3. main-workflow.py: agent + router(workflow) architecture
+>    - 사용한 chromadb collection은 공유하지 않음. chromadb의 collection을 생성하고 데이터를 적재해준 뒤 실행되며, 이 코드는 참고용으로 사용할 수 있음
+>    - backend 코드만 있는 상태이고, chainlit은 적용하지 않은 상태
+>4. main-agents.py: agent-only architecture
+>    - main-chromadb와 동일한 collection을 사용했으며, 이 코드도 참고용으로 사용할 수 있음
+>    - backend 코드만 있는 상태이고, chainlit은 적용하지 않은 상태
+
+
 ## 0. VScode, Python 설치
 
-* vscode.md 파일 참고
 * File > Open Folder에서 실습 폴더(압축 해제한 폴더)를 선택
 
 ## 1. OpenAI API Key 발급, `.env` 설정
